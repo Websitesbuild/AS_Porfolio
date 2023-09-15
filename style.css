@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+.outer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2de32;
+}
+.main-box {
+  display: grid;
+  grid-template-columns: 300px 500px 450px;
+  grid-template-rows: 400px 350px 400px 250px;
+  gap: 30px;
+  
+  margin: 10px;
+  padding: 20px;
+
+}
+hr {
+  border: 1px solid black;
+}
+p {
+  font-size: 17px;
+  font-weight: 200;
+}
+.thick {
+  border: 3px solid;
+}
+.profile {
+  margin-top: 10px;
+  padding-top: 10px;
+  grid-area: 1/1/6/1;
+  display: flex;
+  justify-content: center;
+}
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  
+}
+
+.box-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.profile-image {
+  border-radius: 50%;
+  height: 300px;
+}
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  grid-area: 1/2/1/4;
+  padding: 10px;
+}
+h1 {
+  font-size: 5em;
+}
+.creative {
+  color: green;
+}
+.experience {
+  grid-area: 2/2/2/2;
+}
+.education {
+  grid-area: 2/3/2/3;
+}
+.skills {
+  grid-area: 3/2/3/2;
+}
+ul {
+  list-style: none;
+}
+.list-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.language {
+  grid-area: 3/3/3/3;
+}
+.list-langauge {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hobbies {
+  grid-area: 4/2/4/4;
+}
+.footer {
+  grid-area: 5/2/5/4;
+}

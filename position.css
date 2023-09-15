@@ -1,0 +1,100 @@
+@media (max-width: 1400px) {
+  .main-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 350px 400px 500px;
+  }
+  .profile {
+    gap: 20px;
+    justify-content: flex-start;
+    margin-left: 100px;
+    grid-area: 1/1/1/5;
+  }
+  .side-bar {
+    flex-direction: row;
+    position: static;
+  }
+  .box-2{
+    flex-direction: row;
+  }
+  .heading {
+    grid-area: 2/1/2/4;
+    margin-left: 100px;
+  }
+  .experience {
+    margin-left: 100px;
+
+    grid-area: 3/1/3/2;
+  }
+  .education {
+    grid-area: 3/2/3/4;
+  }
+  .skills {
+    margin-left: 100px;
+
+    grid-area: 4/1/4/2;
+  }
+  .language {
+    grid-area: 4/2/4/4;
+  }
+  .hobbies {
+    margin-left: 100px;
+
+    grid-area: 5/1/5/4;
+  }
+  .footer {
+    margin-left: 100px;
+
+    grid-area: 6/1/6/4;
+  }
+}
+@media (max-width: 1000px) {
+  .main-box {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .profile {
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  .side-bar {
+    
+    width: auto;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+  
+  .box-2{
+    flex-direction: column;
+  }
+  .profile-image {
+    height: 200px;
+  }
+  .heading {
+    margin: 9px;
+  }
+  .experience {
+    margin: 10px;
+    grid-area: 3/1/3/4;
+  }
+  .education {
+    margin: 10px;
+    grid-area: 4/1/4/4;
+  }
+  .skills {
+    margin: 10px;
+    grid-area: 5/1/5/4;
+  }
+  .language {
+    margin: 10px;
+    grid-area: 6/1/6/4;
+  }
+  .hobbies {
+    margin: 10px;
+    grid-area: 7/1/7/4;
+  }
+  .footer {
+    grid-area: 8/1/8/4;
+    margin: 10px;
+  }
+}
